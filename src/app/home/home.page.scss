@@ -1,0 +1,44 @@
+
+.chat-item {
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+
+  ion-label {
+    max-width: 800px;
+  }
+
+  &.bot {
+    --background: transparent;
+  }
+}
+
+ion-badge {
+  padding: 15px;
+}
+
+.chat-icon {
+  font-size: 23px;
+}
+
+.send-icon {
+  font-size: 26px;
+}
+
+.w-space {
+  white-space: pre-line;
+}
+
+
+.empty {
+  padding-top: 25vh;
+  text-align: center;
+  opacity: 20%;
+  color: var(--ion-color-dark);
+  ion-icon {
+    font-size: 120px;
+  }
+}
+
+.text-box-item {
+  --border-radius: 15px;
+}
